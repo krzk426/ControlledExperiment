@@ -76,7 +76,7 @@ class CurrencyScanner():
 
         o[EFFECTIVE_DATE_TAG] = table_list[0][EFFECTIVE_DATE_TAG]
         o[RATES_TAG] = list_of_rates
-        
+         
         #why do you have buffer var if you are using it in condition below, and then not returning, not use anywhere else? 
         #additionally you are assigning value, then validating it and then reassigning 
         buffer = o
